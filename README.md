@@ -6,20 +6,21 @@ Personal, native macOS notch-island app for notification replacement and compact
 
 ## Planning artifacts
 
-- [Effort map](.scratch/notchlight/map.md) — destination, notes, decisions so far, fog, and out of scope.
-- [Tickets](.scratch/notchlight/issues/) — one file per ticket, `.scratch/notchlight/issues/NN-<slug>.md`.
+- [Effort map](https://github.com/mujak27/notchlight/issues/1) — destination, notes, decisions so far, fog, and out of scope.
+- [Issues](https://github.com/mujak27/notchlight/issues) — the map's native GitHub child issues.
 - [Research](research/) — [notification replacement](research/notifications.md), [media sources](research/media.md), and [native overlay](research/overlay.md) findings.
 - [Glossary](GLOSSARY.md) — this effort's domain language.
-- [Issue tracker configuration](docs/issue-tracker.md) — the local Markdown tracker's layout, metadata, and workflow.
+- [Issue tracker configuration](docs/issue-tracker.md) — the GitHub Issues tracker's labels, hierarchy, and workflow.
 
-## Local issue tracker
+## GitHub issue tracker
 
-Tickets are local Markdown files; there is no issue server. The full configuration is in [docs/issue-tracker.md](docs/issue-tracker.md).
+Tickets are GitHub Issues on `mujak27/notchlight`; the [effort map](https://github.com/mujak27/notchlight/issues/1) is issue #1. The full configuration is in [docs/issue-tracker.md](docs/issue-tracker.md).
 
-- **Claim**: a ticket is claimed by recording `Assigned to:` and `Status: claimed` and saving before any work starts.
-- **Dependencies**: a `Blocked by: NN, NN` line near the top lists the tickets that must be `resolved` first; a ticket is unblocked when every listed ticket is resolved.
-- **Frontier**: the next ticket to work is the open, unassigned ticket whose blockers are all resolved — scan `issues/` in filename order and take the first.
-- **Resolve**: append the answer under `## Answer`, set `Status: resolved`, and add a short gist with a title link to the map's Decisions so far.
+- **Claim**: assign `mujak27` to the issue before any work starts.
+- **Dependencies**: native GitHub blocked-by links, not body conventions. A ticket is unblocked only when every blocked-by issue is closed.
+- **Frontier**: the first open, unassigned child in native sub-issue priority order whose blocked-by issues are all closed.
+- **Resolve**: add a resolution comment, then close the issue as completed; research closes only with its evidence report linked.
+- **Map**: add only closed decisions, as one-line title links under Decisions so far; the map does not index open children.
 
 ## Research
 

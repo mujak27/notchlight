@@ -1,6 +1,6 @@
 # Notchlight research — native overlay design and idle cost on macOS 27
 
-Ticket: [What native overlay design can stay idle cheaply?](../.scratch/notchlight/issues/03-native-overlay-idle-cost.md) (research; evidence and method only, no budget — a budget is a human decision).
+Ticket: [What native overlay design can stay idle cheaply?](https://github.com/mujak27/notchlight/issues/4) (research; evidence and method only, no budget — a budget is a human decision).
 Host under study: personal Mac Apple M5 Pro 16", macOS 27.0.1 (build 26A434), Mac17,8, arm64, 24 GiB. One host; portability not required.
 Scope of this report: the **overlay surface** (the thing that draws beside/over the notch and stays alive at idle). It does **not** cover where notification or media data comes from — that is tickets 01/02/04/05.
 Constraints assumed: no SIP disabling, no system modification, no new permission prompts for this research, no code executed, no app prototype. **No measured numbers are stated anywhere below; every "cheap"/"expensive" statement is a design argument or an Apple-documented expectation, not a benchmark.**

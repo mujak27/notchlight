@@ -1,6 +1,6 @@
 # Notchlight research — capturing and suppressing other apps' notifications on macOS 27
 
-Ticket: [Can Notchlight safely replace macOS notification banners?](../.scratch/notchlight/issues/01-notification-banner-replacement.md) (research); this report is evidence only and makes no decision — the decision belongs to the grilling ticket [Choose the notification compatibility boundary](../.scratch/notchlight/issues/04-notification-compatibility-boundary.md).
+Ticket: [Can Notchlight safely replace macOS notification banners?](https://github.com/mujak27/notchlight/issues/2) (research); this report is evidence only and makes no decision — the decision belongs to the grilling ticket [Choose the notification compatibility boundary](https://github.com/mujak27/notchlight/issues/5).
 Host under study: personal Mac Apple M5 Pro 16", macOS 27.0.1 (build 26A434), Mac17,8, arm64. One host; portability not required.
 Constraints assumed: no SIP disabling, no system-modification, no OS preference changes, **no new permission prompts** for this research.
 Method: read-only primary-source and first-party-source research (Apple documentation/release notes/support docs; a shipping open-source notch app; security-research write-ups; community source code). No code was run against the host and no system state was changed.

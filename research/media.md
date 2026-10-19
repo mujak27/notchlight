@@ -1,6 +1,6 @@
 # Notchlight — Media source capabilities (research findings)
 
-Ticket: [Which media sources can Notchlight reliably control?](../.scratch/notchlight/issues/02-media-sources.md).
+Ticket: [Which media sources can Notchlight reliably control?](https://github.com/mujak27/notchlight/issues/3).
 Type: evidence, not a decision. This report makes no decision.
 
 ## How to read this document
